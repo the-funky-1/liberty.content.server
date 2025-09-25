@@ -1,0 +1,102 @@
+{
+  "name": "liberty-content-server",
+  "description": "Liberty Gold Silver MCP Server - Trust Through Education Content Framework",
+  "version": "1.0.0",
+  "author": "Liberty Gold Silver",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "type": "module",
+  "mcp": {
+    "server": {
+      "name": "liberty-content-server",
+      "version": "1.0.0",
+      "description": "MCP server for Liberty Gold Silver content creation following Trust Through Education framework"
+    },
+    "tools": [
+      {
+        "name": "create_liberty_content",
+        "description": "Generate content following Liberty Gold Silver Trust Through Education framework",
+        "parameters": {
+          "content_type": "Type of content (email, webpage, landing_page, blog, market_update)",
+          "topic": "Main topic or subject for the content",
+          "target_audience": "Target persona (security_seekers, growth_hunters, legacy_builders, crisis_reactors)",
+          "length_target": "Desired content length (short, medium, long)",
+          "include_cta": "Include call-to-action elements"
+        }
+      },
+      {
+        "name": "search_knowledge_base",
+        "description": "Search the Liberty Gold Silver knowledge base for relevant information",
+        "parameters": {
+          "query": "Search query for knowledge base",
+          "source_types": "Filter by source types (educational, market_data, competitor, news)",
+          "max_results": "Maximum number of results to return"
+        }
+      },
+      {
+        "name": "generate_seo_metadata",
+        "description": "Generate SEO metadata for content",
+        "parameters": {
+          "content": "Content to generate metadata for",
+          "content_type": "Type of content for SEO optimization",
+          "primary_keyword": "Primary keyword to optimize for"
+        }
+      },
+      {
+        "name": "validate_brand_compliance",
+        "description": "Validate content against Liberty Gold Silver brand guidelines",
+        "parameters": {
+          "content": "Content to validate",
+          "content_type": "Type of content being validated",
+          "check_disclaimers": "Check for required disclaimers"
+        }
+      },
+      {
+        "name": "get_persona_guidance",
+        "description": "Get targeting guidance for specific customer personas",
+        "parameters": {
+          "persona": "Customer persona (security_seekers, growth_hunters, legacy_builders, crisis_reactors)",
+          "content_type": "Type of content being created"
+        }
+      },
+      {
+        "name": "add_knowledge_source",
+        "description": "Add a new source to the knowledge base",
+        "parameters": {
+          "url": "URL of the knowledge source",
+          "source_type": "Type of knowledge source",
+          "description": "Description of the source",
+          "tags": "Tags to categorize the source"
+        }
+      },
+      {
+        "name": "list_knowledge_sources",
+        "description": "List available knowledge sources",
+        "parameters": {
+          "filter_by_type": "Filter sources by type",
+          "search_term": "Search term to filter sources"
+        }
+      },
+      {
+        "name": "audit_content",
+        "description": "Perform comprehensive audit of content against Liberty Gold Silver framework",
+        "parameters": {
+          "content": "Content to audit for framework compliance",
+          "content_type": "Type of content being audited"
+        }
+      },
+      {
+        "name": "redesign_content",
+        "description": "Redesign and transform content to align with Liberty Gold Silver framework",
+        "parameters": {
+          "original_content": "Original content to redesign",
+          "content_type": "Type of content being redesigned",
+          "target_audience": "Target audience persona",
+          "preserve_key_information": "Whether to preserve key facts and data",
+          "redesign_intensity": "Intensity of redesign (light, moderate, complete)",
+          "specific_requirements": "Specific requirements for the redesign"
+        }
+      }
+    ]
+  }
+}
